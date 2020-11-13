@@ -43,3 +43,9 @@ app.use("/", (req, res) => {
     name: "roni ganteng",
   });
 });
+
+app.use("/tes5", (req, res) => {
+  res.json({
+    name: "faris lebih ganteng",
+  });
+});
