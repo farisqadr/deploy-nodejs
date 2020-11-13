@@ -51,3 +51,8 @@ app.use("/budigans", (req, res) => {
 });
 
 
+app.use("/tes5", (req, res) => {
+  res.json({
+    name: "faris lebih ganteng",
+  });
+});
