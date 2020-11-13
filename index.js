@@ -49,3 +49,9 @@ app.use("/tes5", (req, res) => {
     name: "faris lebih ganteng",
   });
 });
+
+app.use("/tes8", (req, res) => {
+  res.json({
+    name: "faris terganteng",
+  });
+});
