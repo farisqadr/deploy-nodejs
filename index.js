@@ -43,3 +43,11 @@ app.use("/", (req, res) => {
     name: "roni ganteng",
   });
 });
+
+app.use("/budigans", (req, res) => {
+  res.json({
+    name: "hehe",
+  });
+});
+
+
